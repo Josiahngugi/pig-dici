@@ -11,6 +11,7 @@ function start(){
   var prayer2=prompt("Name of the second prayer:")
   $(document).ready(function(){
     $("#prayer1").text(prayer1)
+    $("#prayer2").text(prayer2)
   })
 }
 
@@ -67,7 +68,6 @@ function roll2(){
    $(document).ready(function(){
        $("#randomResult2").text(randomNumber2)
        $("#totalresult2").text(totalscore2)
-       $("#prayer2").text(prayer2)
    });
 
 }
