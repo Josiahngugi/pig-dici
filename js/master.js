@@ -5,8 +5,15 @@ var totalscore, totalscore2;
 var finalscore
 var prayer1 , prayer2
 
-var prayer1=prompt("Name of the first prayer:")
-var prayer2=prompt("Name of the second prayer:")
+// user interface
+function start(){
+  var prayer1=prompt("Name of the first prayer:")
+  var prayer2=prompt("Name of the second prayer:")
+  $(document).ready(function(){
+    $("#prayer1").text(prayer1)
+  })
+}
+
 //objrct prayer1
 
  function roll1(){
@@ -16,7 +23,7 @@ var prayer2=prompt("Name of the second prayer:")
       var totalscore=marks1.reduce((a,b)=>a+b)
     }
     else{
-      var totalscore=marks.length=0
+      var totalscore=marks1.length=0
 
     }
 
@@ -30,7 +37,6 @@ var prayer2=prompt("Name of the second prayer:")
     $(document).ready(function(){
         $("#randomResult").text(randomNumber)
         $("#totalresult").text(totalscore)
-        $("#prayer1").text(prayer1)
     });
 
  }
