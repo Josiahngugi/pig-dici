@@ -5,7 +5,10 @@ var totalscore, totalscore2;
 var finalscore
 var prayer1 , prayer2
 
-//function 1
+var prayer1=prompt("Name of the first prayer:")
+var prayer2=prompt("Name of the second prayer:")
+//objrct prayer1
+
  function roll1(){
    var randomNumber=Math.floor((Math.random()*6)+1);
   if (randomNumber!==1){
@@ -20,7 +23,10 @@ var prayer1 , prayer2
     if (totalscore>=100||finalscore>=100){
       alert("Hooray you are winner")
     }
-    var prayer1=prompt("Name of the first prayer:")
+
+    // user interface
+
+
     $(document).ready(function(){
         $("#randomResult").text(randomNumber)
         $("#totalresult").text(totalscore)
@@ -29,10 +35,12 @@ var prayer1 , prayer2
 
  }
 
+// hold function
 function hold(){
   var totalscore= finalscore
 }
-// user interface
+
+// object prayer 2
 
 function roll2(){
   var randomNumber2=Math.floor((Math.random()*6)+1);
@@ -48,6 +56,8 @@ function roll2(){
    if (totalscore2>=100||finalscore>=100){
      alert("Hooray you are winner")
    }
+
+   // user interface
    $(document).ready(function(){
        $("#randomResult2").text(randomNumber2)
        $("#totalresult2").text(totalscore2)
