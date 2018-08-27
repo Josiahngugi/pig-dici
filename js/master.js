@@ -45,6 +45,11 @@ function start(){
 // hold function
 function hold(){
   var totalscore= finalscore
+  $(document).ready(function(){
+  $("#user").click(function(){
+    $("this").removeAttr("user1")
+  })
+  })
 }
 
 // object prayer 2
@@ -56,7 +61,7 @@ function roll2(){
      var totalscore2=marks2.reduce((a,b)=>a+b)
    }
    else{
-     var totalscore=marks2.length=0
+     var totalscore2=marks2.length=0
 
    }
 
