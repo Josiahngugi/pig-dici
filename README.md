@@ -11,7 +11,7 @@ Prayer 1, start by rolling dice and continues to accumulate the score if only if
 The same thing happens to prayer 2, untill a winner is found
 Description
 
-The project is design using following technologies:
+The project is design using following technologies:<br>
 #Html<br>
 #Css<br>
 #JS<br>
