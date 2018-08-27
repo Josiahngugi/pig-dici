@@ -1,15 +1,21 @@
 
-QuizBoard
+Pig Dice
 
-link to my live site This Project comprises questions with different marks that prompt user to fill them and then evaluates the whole test and awards average marks to the user in Percentage. go to Site
+link to my live site <a href="file:///home/josiah/Documents/pig/index.html">live site</a>
+This is a project is a game where two playes play against each other andthe one who accummulate score to 100 or more becomes a winner.
+
 Getting Started
 
-The projects is comprised of the checkboxes with choices of the questions that a user is needed to check.It also comprises of three buttons ;"next, button that navigates on to the next page for more questions."submit button the the user handles in answers upon completions of the test.Lasly, a back button that take the user back for a new session if still want to give the test a trial.
+To start the project Click <b> Start Button</b>, the program prompt users their names and set each other ready for a new game.
+Prayer 1, start by rolling dice and continues to accumulate the score if only if has not rolled 1, otherwise his/her round ends and total score pulled to 0.The session is passed to prayer 2
+The same thing happens to prayer 2, untill a winner is found
 Description
 
-This a project that comprises of the questions with different marks and prompt the user to answer through choosing of checkboxes.
-The program also determines the correct answers for user and awards average marks in percentage.
-
+The project is design using following technologies:
+#Html<br>
+#Css<br>
+#JS<br>
+#Bootstrap<br>
 ## Specs of the program
 
     Players input their name, by clicking clicks start button.
@@ -27,10 +33,10 @@ The program also determines the correct answers for user and awards average mark
     Input : roll 1
     Required:Score added, player round continues unless hold
     Output :true
-The program awards 5 marks upon successfuly choose of right answer. Input: What is Javascript ? Required:Web programing language Output: true
-Behaviours
+The project has start button which collects users names and starts a new game
+Roll buttton generates random numbers from 1-6
+Hold button accumulates a prayers score and pass the session to the next prayer
 
-The project comprises of checkboxes with answers that a user is prompte to check.The questions are awarded various marks and it ensures that hthe user completes all the questions.Upon completion the submit button marks the whole test and awards average marks in percentage.The Next button takes you to the next level of the qustions for good viewing rather than squezing all the questions in one page.
 Prerequisites
 
 To have this project run from your end, the following are prerequisites tools you need
