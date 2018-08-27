@@ -10,20 +10,23 @@ Description
 This a project that comprises of the questions with different marks and prompt the user to answer through choosing of checkboxes.
 The program also determines the correct answers for user and awards average marks in percentage.
 
-Specs of the program
+## Specs of the program
 
-Player 1 inputs name and Player 2 inputs name, and clicks start button.
-    Input: Player 1: Olivia / Player 2: Matt / Click START?
+    Players input their name, by clicking clicks start button.
+    Input: Player 1: "prayerX","prayerY"Click START?
     Output : true
-Player 1 clicks ROLL button.
+    Player 1 clicks ROLL button.
     Input: Click ROLL button
-    Required:Hyper text markup langauge
+    Required:Random generated number from 1 to 6.
     Output: true
-If Player 1 rolls a 1, no score is added and round for Player 1 ends.
-    Input : What is Css ?
-    Required:stylish language
+    If Player 1 rolls a 1, no score is added and round for Player 1 ends.
+    Input : roll 1
+    Required:No Score added, player round ends
     Output :true
-
+    If Player 1 rolls a number not 2, score is added and round for Player 1 continues unless want to hold.
+    Input : roll 1
+    Required:Score added, player round continues unless hold
+    Output :true
 The program awards 5 marks upon successfuly choose of right answer. Input: What is Javascript ? Required:Web programing language Output: true
 Behaviours
 
